@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+<body>
+    <div id="dashboard">
+        <div id="rooms">
+            <h2>Rooms</h2>
+            <div id="room-search">
+                <label for="search">Search:</label>
+                <input type="text" id="search" placeholder="Search rooms">
+            </div>
+            <div>
+                <ul id="room-list">
+                    
+                </ul>
+            </div>
+            <div id="create-room">
+                <label for="new-room">Create Room:</label>
+                <input type="text" id="new-room" placeholder="Enter room name">
+                <button type="button" id="createRoom-btn">Create</button>
+            </div>
+            <div>
+                <ul id="myRooms">
+                </ul>
+            </div>
+        </div>
+        <div id="profile">
+            <h2>Profile</h2>
+            <div id="profile-info">
+            </div>
+        </div>
+    </div>
+    <script src="./js/dashboard.js"></script>
+</body>
+</html>

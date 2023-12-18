@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+#dashboard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#rooms {
+    flex: 2;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#profile {
+    flex: 1;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+#room-search {
+    margin-bottom: 20px;
+}
+
+#room-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.room-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#create-room {
+    margin-top: 20px;
+}
+
+#profile-info {
+    text-align: center;
+}

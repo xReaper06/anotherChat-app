@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+   <link rel="stylesheet" href="./css/registration.css">
+</head>
+<body>
+    <div class="registration-container">
+        <h2>Registration</h2>
+            <div class="registration-form">
+                <div class="form-group">
+                    <label for="profilePic">Profile Picture</label>
+                    <input type="file" id="profilePic" name="profilePic" accept="image/jpeg, image/png" required>
+                </div>                
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="Confirmpassword">Confirm Password:</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword" required>
+                </div>
+                <div class="form-group">
+                    <button type="button" id="registerbtn">Register</button>
+                </div>
+            </div>
+        <div class="form-group">
+            <p>I Already have an</p><a href="./index.html">Account</a>
+        </div>
+    </div>
+    <script src="/js/registration.js"></script>
+</body>
+</html>
